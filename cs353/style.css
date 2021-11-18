@@ -1,0 +1,80 @@
+*{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    box-sizing: padding-box;
+
+    font-size: 15px;
+
+}
+
+body {
+
+    background: turquoise;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+}
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+    color: turquoise;
+    padding: 10px;
+}
+
+form{
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+input {
+
+    display: block;
+    border: 2px solid #ccc;
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+label {
+    color: turquoise;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+
+}
+
+.input-field{
+    text-align: left;
+}
+
+button {
+
+    float: right;
+    background: turquoise;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: none;
+
+}
+
+button:hover{
+    opacity: .70;
+
+}
